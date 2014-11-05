@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+E:\GitRepos\OutsideOffice\bherto39android\BuyPinoy\BuyPinoy.Android.Eclipse\.metadata\.plugins\org.eclipse.jdt.core
+2086858561.index
+4009870821.index
+116811776.index
