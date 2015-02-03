@@ -122,12 +122,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BuyPinoy.Server.Api.Web\BuyPinoy.Server.Api.Web.csproj">
-      <Project>{959061B0-9C28-4888-94F5-570ECF973475}</Project>
-      <Name>BuyPinoy.Server.Api.Web</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

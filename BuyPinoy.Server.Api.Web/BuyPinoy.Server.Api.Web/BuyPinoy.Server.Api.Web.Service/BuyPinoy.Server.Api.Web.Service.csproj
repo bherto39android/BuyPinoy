@@ -67,8 +67,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BuyPinoy.Server.Api.Web\BuyPinoy.Server.Api.Web.csproj">
-      <Project>{959061B0-9C28-4888-94F5-570ECF973475}</Project>
+      <Project>{702022A4-D44C-4E45-AD1B-591CBC661B4E}</Project>
       <Name>BuyPinoy.Server.Api.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BuyPinoy.Server.Framework\BuyPinoy.Server.Framework.csproj">
+      <Project>{EEE7D80A-5A57-4C0F-9C47-EE3DC0B6D670}</Project>
+      <Name>BuyPinoy.Server.Framework</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

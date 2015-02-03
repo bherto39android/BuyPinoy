@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyPinoy.Server.Api.Web", "BuyPinoy.Server.Api.Web\BuyPinoy.Server.Api.Web.csproj", "{959061B0-9C28-4888-94F5-570ECF973475}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyPinoy.Server.Api.Web.Tests", "BuyPinoy.Server.Api.Web.Tests\BuyPinoy.Server.Api.Web.Tests.csproj", "{2BE77FA4-F6C3-434F-A5CA-3EC0841ED7C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyPinoy.Server.Framework", "BuyPinoy.Server.Framework\BuyPinoy.Server.Framework.csproj", "{EEE7D80A-5A57-4C0F-9C47-EE3DC0B6D670}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyPinoy.Server.Api.Web.Service", "BuyPinoy.Server.Api.Web.Service\BuyPinoy.Server.Api.Web.Service.csproj", "{A85224A4-9084-46CC-B1E1-CD5165F812AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyPinoy.Server.Api.Web", "BuyPinoy.Server.Api.Web\BuyPinoy.Server.Api.Web.csproj", "{702022A4-D44C-4E45-AD1B-591CBC661B4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{959061B0-9C28-4888-94F5-570ECF973475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{959061B0-9C28-4888-94F5-570ECF973475}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{959061B0-9C28-4888-94F5-570ECF973475}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{959061B0-9C28-4888-94F5-570ECF973475}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2BE77FA4-F6C3-434F-A5CA-3EC0841ED7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2BE77FA4-F6C3-434F-A5CA-3EC0841ED7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BE77FA4-F6C3-434F-A5CA-3EC0841ED7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{A85224A4-9084-46CC-B1E1-CD5165F812AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A85224A4-9084-46CC-B1E1-CD5165F812AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A85224A4-9084-46CC-B1E1-CD5165F812AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702022A4-D44C-4E45-AD1B-591CBC661B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702022A4-D44C-4E45-AD1B-591CBC661B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702022A4-D44C-4E45-AD1B-591CBC661B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702022A4-D44C-4E45-AD1B-591CBC661B4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
