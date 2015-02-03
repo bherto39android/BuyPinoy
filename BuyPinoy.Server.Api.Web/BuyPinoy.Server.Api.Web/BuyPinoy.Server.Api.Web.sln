@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyPinoy.Server.Api.Web", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyPinoy.Server.Api.Web.Tests", "BuyPinoy.Server.Api.Web.Tests\BuyPinoy.Server.Api.Web.Tests.csproj", "{2BE77FA4-F6C3-434F-A5CA-3EC0841ED7C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyPinoy.Server.Framework", "BuyPinoy.Server.Framework\BuyPinoy.Server.Framework.csproj", "{EEE7D80A-5A57-4C0F-9C47-EE3DC0B6D670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyPinoy.Server.Api.Web.Service", "BuyPinoy.Server.Api.Web.Service\BuyPinoy.Server.Api.Web.Service.csproj", "{A85224A4-9084-46CC-B1E1-CD5165F812AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{2BE77FA4-F6C3-434F-A5CA-3EC0841ED7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BE77FA4-F6C3-434F-A5CA-3EC0841ED7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BE77FA4-F6C3-434F-A5CA-3EC0841ED7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE7D80A-5A57-4C0F-9C47-EE3DC0B6D670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE7D80A-5A57-4C0F-9C47-EE3DC0B6D670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE7D80A-5A57-4C0F-9C47-EE3DC0B6D670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE7D80A-5A57-4C0F-9C47-EE3DC0B6D670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85224A4-9084-46CC-B1E1-CD5165F812AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85224A4-9084-46CC-B1E1-CD5165F812AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85224A4-9084-46CC-B1E1-CD5165F812AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85224A4-9084-46CC-B1E1-CD5165F812AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
