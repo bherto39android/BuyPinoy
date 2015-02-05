@@ -25,6 +25,8 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    debugCompile 'net.sf.json-lib:json-lib:2.4:jdk15'
     debugCompile 'org.springframework.android:spring-android-rest-template:2.0.0.M1'
     debugCompile 'com.android.support:appcompat-v7:21.0.3'
+
 }

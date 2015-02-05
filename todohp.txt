@@ -1,0 +1,21 @@
+install adobe pdf
+install photoshop
+
+install sublime
+
+
+
+
+        String s = String.valueOf(new RetrieveJsonTask().execute()).toString();
+        System.out.println(s);
+
+
+        JSONObject j = null;
+        try {
+            j = new JSONObject(s);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        } 
+
+
+debugCompile 'net.sf.json-lib:json-lib:2.4:jdk15'
