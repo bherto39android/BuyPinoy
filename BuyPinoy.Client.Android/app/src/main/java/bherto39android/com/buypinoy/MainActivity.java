@@ -1,9 +1,11 @@
 package bherto39android.com.buypinoy;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import bherto39android.com.buypinoy.bherto39android.com.buypinoy.common.tasks.RetrieveJsonTask;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -28,7 +30,10 @@ public class MainActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        Test();
+
+        String s = String.valueOf(new RetrieveJsonTask().execute()).toString();
+        System.out.println(s);
+
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
@@ -37,21 +42,4 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    //TODO: fix this unresolved RestTemplate using gradle dependency
-    public void Test(){
-        //do nothing
-        // The connection URL
-        String url = "https://ajax.googleapis.com/ajax/" +
-                "services/search/web?v=1.0&q={query}";
-
-// Create a new RestTemplate instance
-        RestTemplate restTemplate = new RestTemplate();
-
-// Add the String message converter
-        restTemplate.getMessageConverters().add(new StringHttpMessageConverter());
-
-// Make the HTTP GET request, marshaling the response to a String
-        String result = restTemplate.getForObject(url, String.class, "Android");
-
-    }
 }
